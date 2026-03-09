@@ -24,6 +24,7 @@ const issuesContainer = document.getElementById("issuesContainer");
 
 /* ============= Search API section ============ */
 
+
 let currentStatus = "all"; // default
 
 async function searchIssues() {
@@ -43,7 +44,6 @@ async function searchIssues() {
     displayIssues(result);
     UpdateCounting(result);
 
-    
 }
 
 
