@@ -6,7 +6,7 @@ function login() {
     let pass = document.getElementById("password").value;
 
     if (user === "admin" && pass === "admin123") {
-        window.location.href = "index.html";
+        window.location.href = "index2-home.html";
     }
     else {
         alert("Wrong username or password");
