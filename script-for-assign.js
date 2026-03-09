@@ -50,6 +50,7 @@ async function searchIssues() {
 
 // <!--========== Load spenning ============ -->
 
+
 const loadingSpinner = document.getElementById("loadingSpinner");
 
 function showLoading() {
