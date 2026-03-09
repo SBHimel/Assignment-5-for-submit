@@ -63,7 +63,7 @@ function hideLoading() {
 }
 
 
-// <!-- counting kora hobe h1 e -->
+// <!========-- counting kora hobe h1 e ======-->
 
 function UpdateCounting(issues){
     const issueCount = document.getElementById("issueCount");
